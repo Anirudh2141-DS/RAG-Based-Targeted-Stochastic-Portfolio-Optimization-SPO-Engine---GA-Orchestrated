@@ -1,0 +1,35 @@
+{
+  "feature_names": [
+    "ret_1d",
+    "logret_5d",
+    "logret_10d",
+    "logret_20d",
+    "ma_ratio_5d",
+    "ma_ratio_10d",
+    "ma_ratio_20d",
+    "rolling_vol_21",
+    "rolling_vol_63",
+    "ret_zscore_xs",
+    "ret_rank_xs",
+    "global_sentiment",
+    "liquidity_risk",
+    "macro_tone"
+  ],
+  "label_horizon": 5,
+  "train_start": "2015-01-01",
+  "val_start": "2020-01-01",
+  "test_start": "2022-01-01",
+  "test_end": "2024-12-31",
+  "tickers": [
+    "AAPL",
+    "MSFT",
+    "GOOG",
+    "AMZN",
+    "META",
+    "NVDA",
+    "TSLA",
+    "JPM",
+    "XOM",
+    "UNH"
+  ]
+}

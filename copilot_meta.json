@@ -1,0 +1,4 @@
+{
+  "model": {
+    "base_model_name": "local-small-llm-1b",
+    "model_dir": 
